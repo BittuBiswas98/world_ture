@@ -1,0 +1,27 @@
+.country-container{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+
+  
+  /* Medium devices (e.g., tablets) */
+  @media (min-width: 768px) {
+    .country-container {
+      grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    }
+  }
+  
+  /* Larger devices (e.g., desktops) */
+  @media (min-width: 1200px) {
+    .country-container {
+      grid-template-columns: repeat(3, 1fr); /* 4 columns */
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .country-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    }
+  }
