@@ -25,3 +25,8 @@
       grid-template-columns: repeat(4, 1fr); /* 4 columns */
     }
   }
+
+  .flag-container img{
+ width: 100px;
+ margin-right: 10px;
+  }
